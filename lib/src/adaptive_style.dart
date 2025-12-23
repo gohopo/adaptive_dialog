@@ -38,6 +38,8 @@ enum AdaptiveStyle {
           case TargetPlatform.linux:
           case TargetPlatform.windows:
             return AdaptiveStyle.material;
+          case TargetPlatform.ohos:
+            return AdaptiveStyle.material;
         }
     }
   }
